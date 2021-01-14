@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="display"></div>
+    <button id="click">クリックする</button>
+    <script>
+      const display = document.getElementById("display")
+      const button = document.getElementById("click")
+      button.onclick = function() {
+        display.textContent = "クリックされた"
+      }
+
+      const akiyama = {
+        name: "知沙",
+        age: "20",
+        hobby: "食べること",
+        familly: {
+          papa: "パパ",
+          mama: "ママ",
+          brother: "ともや",
+        },
+        sayHello: () => {
+          console.log(akiyama.name + "です")
+        },
+      }
+      console.log(akiyama)
+      console.log(akiyama.sayHello())
+    </script>
+  </body>
+</html>
