@@ -1,5 +1,8 @@
 const figure = document.getElementById("figure")
 
-figure.onmousemove = function (){
+figure.onmouseover = function (){
+    figure.classList.toggle('rounded')
+}
+figure.onmouseleave = function (){
     figure.classList.toggle('rounded')
 }
