@@ -28,3 +28,17 @@ doubleButton.onclick = function(){
    count += 1
    display2.textContent = count
  }
+
+const minusButton2 = document.getElementById("minus-button2")
+
+minusButton2.onclick = function(){
+  count -= 1
+  display2.textContent = count
+}
+
+const doubleButton2 = document.getElementById("double-button2")
+
+doubleButton2.onclick = function(){
+   count *= 2
+   display2.textContent = count
+ }
