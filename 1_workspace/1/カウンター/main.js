@@ -44,8 +44,9 @@ const doubleButton2 = document.getElementById("double-button2")
 doubleButton2.onclick = function(){
    count2 *= 2
    display2.textContent = count2
+
  }
 
-const answer = function(id){
+const answer() = function(id){
   return "display" + "display2"
 }
