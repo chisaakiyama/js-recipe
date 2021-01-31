@@ -2,20 +2,41 @@ html {
   text-align: center;
 }
 
+body {
+  background-color: rgb(241, 212, 228);
+  color: #440000;
+}
+
+.myself {
+  line-height: 1.5;
+  font-family: "Muli-Regular", "Noto Sans", "HiraKakuProN-W3",
+    "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro W3", "メイリオ", Meiryo,
+    "ＭＳ Ｐゴシック", sans-serif;
+  font-weight: 400;
+}
+
 h1 {
-  margin-top: 100px;
-  margin-bottom: 5px;
+  font-size: 45px;
+  margin-top: 150px;
+  margin-bottom: 0;
 }
 
 p {
+  font-size: 20px;
+  font-weight: 100;
   margin-top: 0;
 }
 
 table {
+  font-size: 25px;
   display: flex;
   justify-content: center;
   text-align: left;
   margin: 50px auto;
+}
+
+th {
+  padding-bottom: 10px;
 }
 
 td {
@@ -25,4 +46,8 @@ td {
 
 .sns {
   margin: 15px auto;
+}
+
+a {
+  padding: 0 10px;
 }
