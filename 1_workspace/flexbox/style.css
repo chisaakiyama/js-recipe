@@ -27,21 +27,11 @@ p {
   margin-top: 0;
 }
 
-table {
+.profile {
   font-size: 25px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  text-align: left;
-  margin: 50px auto;
-}
-
-th {
-  padding-bottom: 10px;
-}
-
-td {
-  padding-left: 20px;
-  padding-bottom: 10px;
 }
 
 .sns {
