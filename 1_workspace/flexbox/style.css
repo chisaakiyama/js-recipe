@@ -7,7 +7,13 @@ body {
   color: #440000;
 }
 
-.myself {
+.header-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.profile {
   line-height: 1.5;
   font-family: "Muli-Regular", "Noto Sans", "HiraKakuProN-W3",
     "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro W3", "メイリオ", Meiryo,
@@ -27,11 +33,15 @@ p {
   margin-top: 0;
 }
 
-.profile {
+.profile-content {
   font-size: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+#favorite {
+  background-image: url("../images/maria_red.png");
 }
 
 .sns {

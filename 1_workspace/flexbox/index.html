@@ -4,15 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>CHISA</title>
   </head>
   <body>
-    <div class="myself">
+    <!--menu-->
+    <header class="header-nav">
+      <nav><a href="/">HOME</a></nav>
+      <nav><a href="/pofile">PROFILE</a></nav>
+      <nav><a href="/recent-activity">RECENT ACTIVITY</a></nav>
+      <nav><a href="/sns">SNS</a></nav>
+    </header>
+
+    <!--プロフィール-->
+    <section id="profile">
       <div class="name">
         <h1>秋山 知沙</h1>
         <p>CHISA AKIYAMA</p>
       </div>
-      <div class="profile">
+      <div class="profile-content">
+        <h2>PROFILE</h2>
         <div class="container">
           <th>DATE OF BURTH</th>
           <td>2000.04.26</td>
@@ -26,14 +36,30 @@
           <td>B</td>
         </div>
       </div>
+    </section>
 
-      <div class="sns">
-        <a href="https://twitter.com/cs_____4">TWITTER</a>
-        <a class="instagram" href="https://www.instagram.com/chisaaaa426/"
-          >INSTAGRAM</a
-        >
+    <!--好きなモノ-->
+    <section id="favorite">
+      <h2>FAVORITE</h2>
+      <div class="favorite-item">
+        MARIA
       </div>
-    </div>
+    </section>
+
+    <!--最近-->
+    <section id="recent">
+      <h2>RECENT ACTIVITY</h2>
+      <div class="1">1</div>
+    </section>
+
+    <!--SNS-->
+    <section id="sns">
+      <h2>SNS</h2>
+      <a href="https://twitter.com/cs_____4">TWITTER</a>
+      <a class="instagram" href="https://www.instagram.com/chisaaaa426/"
+        >INSTAGRAM</a
+      >
+    </section>
     <script src="main.js"></script>
   </body>
 </html>
