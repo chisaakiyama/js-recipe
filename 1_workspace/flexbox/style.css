@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: rgb(241, 212, 228);
+  background-color: #eeeeee;
   color: #440000;
 }
 
@@ -27,21 +27,22 @@ h1 {
   margin-bottom: 0;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 p {
   font-size: 20px;
   font-weight: 100;
   margin-top: 0;
+  margin-bottom: 130px;
 }
 
 .profile-content {
-  font-size: 25px;
+  font-size: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-#favorite {
-  background-image: url("../images/maria_red.png");
 }
 
 .sns {
