@@ -8,11 +8,18 @@
   </head>
   <body>
     <!--menu-->
-    <header class="header-nav">
-      <nav><a href="/">HOME</a></nav>
-      <nav><a href="/pofile">PROFILE</a></nav>
-      <nav><a href="/recent-activity">RECENT ACTIVITY</a></nav>
-      <nav><a href="/sns">SNS</a></nav>
+    <header>
+      <div
+        id="header-nav"
+        onMouseover="changeTextColor('#FFA07A')"
+        onMouseout="changeTextColor('#440000')"
+      >
+        <nav><a id="movement">HOME</a></nav>
+        <nav><a id="movement">PROFILE</a></nav>
+        <nav><a id="movement">FAVORITE</a></nav>
+        <nav><a id="movement">RECENT ACTIVITY</a></nav>
+        <nav><a id="movement">SNS</a></nav>
+      </div>
     </header>
 
     <!--プロフィール-->
@@ -22,38 +29,52 @@
         <p>CHISA AKIYAMA</p>
       </div>
       <div class="profile-content">
-        <h2>PROFILE</h2>
+        <h2>
+          <span class="font-1">P</span>
+          <span class="font-2">rofile</span>
+        </h2>
         <div class="container">
-          <th>DATE OF BURTH</th>
-          <td>2000.04.26</td>
+          DATE OF BIRTH
+          <br />
+          2000.04.26
         </div>
         <div class="container">
-          <th>BIRTH PLACE</th>
-          <td>NIIGATA</td>
+          BIRTH PLACE
+          <br />
+          NIIGATA
         </div>
         <div class="container">
-          <th>BLOODTYPE</th>
-          <td>B</td>
+          BLOODTYPE
+          <br />
+          B
         </div>
       </div>
     </section>
 
     <!--好きなモノ-->
     <section id="favorite">
-      <h2>FAVORITE</h2>
+      <h2>
+        <span class="font-1">F</span>
+        <span class="font-2">avorite</span>
+      </h2>
       <div class="favorite-item">
         MARIA
       </div>
-      <a href="#" class="maria">
-        <img src="images/maria7_off.jpg" alt="MARIA" />
+      <a href="#">
+        <img id="maria" src="../images/maria-back-off.jpg.jpg" />
       </a>
     </section>
 
     <!--最近-->
     <section id="recent">
-      <h2>RECENT ACTIVITY</h2>
+      <h2>
+        <span class="font-1">R</span>
+        <span class="font-2">ecent</span>
+        <span class="font-1">A</span>
+        <span class="font-2">ctivity</span>
+      </h2>
       <div class="1">KICK BOXING</div>
-      <img src="images/kick.jpg" alt="KICK" />
+      <img src="images/kick.jpg.jpg" alt="KICK" />
     </section>
 
     <!--SNS-->
@@ -64,6 +85,10 @@
         >INSTAGRAM</a
       >
     </section>
+
+    <footer>
+      <span>Copyright ©CHISA AKIYAMA All Rights Reserved.</span>
+    </footer>
     <script src="main.js"></script>
   </body>
 </html>

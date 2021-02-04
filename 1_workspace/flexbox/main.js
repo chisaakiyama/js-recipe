@@ -1,11 +1,15 @@
-//マウスオーバー時の処理
-function mouseOn(){
-  var obj = document.getElementById("maria");
-  obj.src = "images/maria7_on.jpg";
+//function changeTextColor(cName){
+//document.getElementById("header-nav").style.color = cName;
+//}
+
+const maria = document.getElementById("maria")
+
+//マウスをのせた時の処理
+maria.onmouseover = function (){
+  maria.src = "../images/maria-back-on.jpg.jpg";
 }
   
-//マウスアウト時の処理
-function mouseOff(){
-  var obj = document.getElementById("maria");
-  obj.src = "images/maria7_off.jpg";
+//マウスを離した時の処理
+maria.onmouseout = function (){
+  maria.src = "../images/maria-back-off.jpg.jpg";
 }
