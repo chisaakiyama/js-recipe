@@ -7,9 +7,9 @@ body {
   color: #440000;
   width: 100%;
   height: 100%;
-  font-family: Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, meiryo,
-    ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
-  font-weight: 400;
+  font-family: "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体",
+    sans-serif;
+  font-weight: bold;
 }
 
 #header-nav {
@@ -17,14 +17,13 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  font-family: aglet-slab;
 }
 
 .profile {
   line-height: 1.5;
 }
 
-.name {
+#name {
   background-image: url("../images/flw4.jpg");
   background-size: cover;
   background-position: bottom;
@@ -34,20 +33,27 @@ body {
   color: #eeeeee;
 }
 
+.name {
+  position: ;
+}
+
 #profile-content {
+  font-size: 20px;
   width: 295px;
 }
 
 h1 {
   font-size: 45px;
+  margin-top: 8px;
   margin-bottom: 0;
 }
 
 .font-1 {
-  font-size: 80px;
+  font-size: 70px;
 }
 
 .font-2 {
+  font-size: 35px;
   letter-spacing: 0.1em;
 }
 
@@ -63,7 +69,6 @@ p {
 }
 
 .profile-content {
-  font-size: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,6 +76,7 @@ p {
 
 .container {
   padding-top: 15px;
+  font-size: 20px;
 }
 
 #maria {
@@ -79,8 +85,9 @@ p {
   height: 280px;
 }
 
-.sns {
+#sns {
   margin-top: 100px;
+  background-color: #cccccc;
 }
 
 a {

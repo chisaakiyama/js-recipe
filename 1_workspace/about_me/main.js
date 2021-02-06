@@ -1,6 +1,6 @@
-//function changeTextColor(cName){
-//document.getElementById("header-nav").style.color = cName;
-//}
+function changeTextColor(cName){
+  document.getElementById("header-nav").style.color = cName;
+}
 
 const maria = document.getElementById("maria")
 
