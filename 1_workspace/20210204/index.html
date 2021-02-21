@@ -29,7 +29,7 @@
           },
           buyDrink: function() {
             this.totalDrink.push(this.inputText)
-            this.currentMoney -= 150
+            ;(this.currentMoney -= 150), (this.inputText = "")
           },
         },
       })
