@@ -7,19 +7,14 @@
     <title>Counter</title>
   </head>
   <body>
-    <div class="box">
-      <h2 id="display">0</h2>
-      <button id="plus-button">+1</button>
-      <button id="minus-button">-1</button>
-      <button id="double-button">×2</button>
+    <div id="app">
+      <div>{{ count }}</div>
+        <button v-on:click="countUp">+1</button>
+        <button v-on:click="countDown">-1</button>
+        <button v-on:click="countDouble">×2</button>
     </div>
-    <div class="box">
-      <h2 id="display2">0</h2>
-      <button id="plus-button2">+1</button>
-      <button id="minus-button2">-1</button>
-      <button id="double-button2">×2</button>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
     <script src="main.js"></script>
   </body>
 </html>

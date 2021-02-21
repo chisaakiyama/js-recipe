@@ -65,6 +65,8 @@ h2 {
   margin-bottom: 50px;
   border-bottom: solid 2px #440000;
   border-top: solid 2px #440000;
+  display: block;
+  font-size: 0;
 }
 
 p {
@@ -123,4 +125,6 @@ p {
 
 footer {
   margin-top: 150px;
+  border-bottom: solid 2px #440000;
+  border-top: solid 2px #440000;
 }
